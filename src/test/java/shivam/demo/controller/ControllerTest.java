@@ -14,7 +14,8 @@ class ControllerTest {
 	@Test
 	void test() {
 		logger.info("Test case passed");
-		Assertions.assertEquals("c", "c", "testcase passed");
+		
+		Assertions.assertEquals("c", "c", "testcase passed one");
 	}
 
 }
