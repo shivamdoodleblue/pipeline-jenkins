@@ -13,6 +13,7 @@ public class Controller {
 	@GetMapping("/jenkistest")
 	public String SampleMethod()
 	{
+		
 		logger.info("Application running successfully");
 		return "Hello Jenkins";
 	}
